@@ -1,0 +1,205 @@
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div.content {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1280px;
+}
+
+div.help {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+div.image-box {
+    padding-bottom: 40px;
+}
+
+div.chart-box {
+    padding-bottom: 40px;
+}
+
+div.table-box {
+    padding-bottom: 0px;
+}
+
+img{
+    border: 0px solid black;
+}
+
+img.image-display {
+    display: block;
+    /*max-width: 100%;*/
+    height: auto;
+    line-height: 0;
+    margin-top: 0;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    background: #222;    
+}
+
+img.inset {
+    border: 0px solid #000;
+    background-color: #222;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pixelated {
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+
+table.insets {
+    border: 0px solid #000;
+    border-spacing: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+}
+
+td.insets {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #AAA;
+    font-weight: normal;
+    border: 0px solid #000;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+tr.insets {
+    border: 0px solid #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.selector {
+    padding: 8px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+/*.selector-primary {
+    color: #fff;
+    background-color: #BDC3C7;
+}
+.selector-primary.active {
+    color: #fff;
+    background-color: #7F8C8D;
+}
+.selector-group>.selector {
+    position: relative;
+}*/
+.selector-primary {
+    color: #AAA;
+    background-color: #333;
+}
+.selector-primary.active {
+    color: #FFF;
+    background-color: #1F8DD6;
+}
+
+.selector-group {
+    padding: 0px;
+    background-color: #333;
+}
+
+.selector-group>.selector {
+    position: relative;
+}
+
+/*.selector-group>.selector:first-child {
+    margin-left: 0;
+}
+.selector-group>.selector:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+}
+.selector-group>.selector:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+}
+.selector-group>.selector:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0;
+}
+*/
+
+table.stats {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-left: auto; 
+    margin-right: auto;
+    min-width: 1280px;
+    padding-bottom: 20px;
+}
+
+caption.stats {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+thead.stats {
+    background-color: #f5f5f5;
+    color: #000;
+    text-align: center;
+}
+
+th.stats {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    border-top: 1px solid #CCC;
+}
+
+th.stats:first-child { border-left: 1px solid #CCC; border-top-left-radius: 5px; }
+th.stats:last-child { border-right: 1px solid #CCC; border-top-right-radius: 5px; }
+td.stats:last-child { border-right: 1px solid #CCC; }
+tr.stats:last-child>td { border-bottom: 1px solid #CCC; }
+tr.stats:last-child>td:first-child { border-bottom-left-radius: 5px; }
+tr.stats:last-child>td:last-child  { border-bottom-right-radius: 5px; }
+
+td.stats {
+    text-align: right;
+    padding: 0.5em 1em;
+    border-left: 1px solid #CCC;
+    border-width: 0 0 0 1px;
+}
+
+canvas.chart-canvas {
+    /*border: 1px solid #CCC; */
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: #FFF;
+}
+
+
